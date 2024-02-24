@@ -33,6 +33,27 @@ public class javabasics {
        }
 
        //looping
+       System.out.println("for loop practice");
+       for(int i=0; i<=10; i++){
+        System.out.print(+i);
+       }
+
+       System.out.println("\nWhile loop practice");
+       int j=0;
+       while (j<=10) {
+        System.out.print(+j);
+        j++;
+        
+       }
+
+       int arr[]={2,3,5,7,9,8};
+       System.out.println("\nArray Elements are: ");
+       for(int i=0; i<6; i++) {
+        System.out.println(arr[i]);
+        
+       }
+       System.out.println("Length of array is" + arr.length);
+       
 
         
 
