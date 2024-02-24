@@ -32,12 +32,13 @@ public class javabasics {
         System.out.println("Your choice is not same as sameer's sibblings");
        }
 
-       //looping
+       //for loop practice
        System.out.println("for loop practice");
        for(int i=0; i<=10; i++){
         System.out.print(+i);
        }
 
+       //while loop practice
        System.out.println("\nWhile loop practice");
        int j=0;
        while (j<=10) {
@@ -53,12 +54,44 @@ public class javabasics {
         
        }
        System.out.println("Length of array is" + arr.length);
-       
 
+       //for-each loop practice
+       System.out.print("Array using for each loop is: ");
+       for(int num:arr){
+        System.out.println(num);
+
+       }
+
+       //if else shortcut
+       int x=4;
+       String message=(x>2)? "You are greater" : "You are smaller";
+       System.out.println(message);
+
+       message();
+       System.out.println("the sum of given number are " +sum(15, 17));
+       System.out.println("The factorial of given number is "+recursion(5));
+    }
+    // java function
+    public static void message(){
+        System.out.println("You are inside message");
+    }
+    public static int sum(int num1, int num2){
+        int value=num1+num2;
+        return  value;
+
+    }
+
+    public static int recursion(int number){
+        if(number==0)
+        return 1;
+        else
+        return number*recursion(number -1);
         
 
 
     }
+
+
 
     
 }
