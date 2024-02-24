@@ -71,7 +71,7 @@ public class javabasics {
        System.out.println("the sum of given number are " +sum(15, 17));
        System.out.println("The factorial of given number is "+recursion(5));
     }
-    // java function
+    // java functions practice
     public static void message(){
         System.out.println("You are inside message");
     }
