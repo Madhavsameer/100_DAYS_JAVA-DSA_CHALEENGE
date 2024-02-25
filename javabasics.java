@@ -20,7 +20,7 @@ public class javabasics {
 
         //if-else
        if(d==2){
-        System.out.println("Your choice is same as madhav");
+        System.out.println("Your choice is same as Madhav");
        }
        else if (d==7) {
         System.out.println("Your choice is same as Keshav");
